@@ -1,0 +1,39 @@
+header{
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .container-img{
+        margin-left: 200px;
+    }
+
+    ul{
+        height: 100%;
+        margin-right: 200px;
+        display: flex;
+        gap: 50px;
+        list-style: none;
+
+        li{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #292929;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        li:hover{
+            border-bottom: 6px solid #0282f9;
+        }
+
+        li:hover a {
+            color: #0282f9;
+        }
+    }
+}
